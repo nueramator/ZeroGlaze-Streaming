@@ -1,0 +1,59 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Testing
+coverage
+.nyc_output
+
+# Development
+.DS_Store
+*.pem
+.env*.local
+.env
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# Build
+.next/
+out/
+build/
+dist/
+
+# Solana/Anchor (build on separate pipeline)
+programs/
+target/
+.anchor/
+Anchor.toml
+Cargo.toml
+Cargo.lock
+
+# Supabase
+supabase/.temp/
+supabase/.branches/
+
+# Documentation (not needed in production)
+docs/
+*.md
+!README.md
+
+# Scripts
+scripts/local/
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# CI/CD
+.github/
+
+# Misc
+*.log
+.cache
